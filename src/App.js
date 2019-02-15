@@ -20,7 +20,7 @@ class App extends Component {
             <MDBCol md="12" lg="6">
               <div className="mb-4">
                 <MDBView hover rounded className="z-depth-1-half mb-4">
-                  <img scr="./media/selfie.7a960db8.JPG" className="img-fluid"/>
+                  <Selfie />
                   <a href="#!">
                     <MDBMask overlay="white-slight" className="waves-light" />
                   </a>
@@ -58,7 +58,7 @@ class App extends Component {
                 <MDBRow>
                   <MDBCol md="3">
                     <MDBView hover rounded className="z-depth-1-half mb-4">
-                      <img scr="./media/atl.a7873933.JPG" className="img-fluid" />
+                      <Atl />
                       <a href="#!">
                         <MDBMask overlay="white-slight" className="waves-light" />
                       </a>
@@ -121,7 +121,7 @@ class App extends Component {
                 <MDBRow>
                   <MDBCol md="3">
                     <MDBView hover rounded className="z-depth-1-half mb-4">
-                      <img scr="./media/selfie.7a960db8.JPG" className="img-fluid" />
+                      <Final />
                       <a href="#!">
                         <MDBMask overlay="white-slight" className="waves-light" />
                       </a>
