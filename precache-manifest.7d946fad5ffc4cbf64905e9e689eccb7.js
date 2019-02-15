@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/MyPortfolio/static/media/daymode.b3fbcff2.JPG"
   },
   {
-    "revision": "000cedcf85c72575b9de",
+    "revision": "e9e3107c34bb2f3e033a",
     "url": "/MyPortfolio/static/css/main.37686c69.chunk.css"
   },
   {
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/MyPortfolio/static/media/atl2.23b66ac9.JPG"
   },
   {
-    "revision": "000cedcf85c72575b9de",
-    "url": "/MyPortfolio/static/js/main.000cedcf.chunk.js"
+    "revision": "e9e3107c34bb2f3e033a",
+    "url": "/MyPortfolio/static/js/main.e9e3107c.chunk.js"
   },
   {
     "revision": "419b6c4b69044cfc9261179e166cd5b7",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/MyPortfolio/static/media/woodscouchclose.badd47f1.JPG"
   },
   {
-    "revision": "c247421064c35323ec7e404ea1d1adca",
+    "revision": "0db1b111b3b72f3e276247099247c056",
     "url": "/MyPortfolio/index.html"
   }
 ];
