@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import {  MDBRow, MDBCol, MDBCard, MDBCardBody, MDBMask, MDBIcon, MDBView } from "mdbreact";
+import { Atl, Daymode, Final, Selfie, Woodscouchclose } from "./components/List/index.js";
+import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBMask, MDBIcon, MDBView } from "mdbreact";
 
 class App extends Component {
   render() {
@@ -20,11 +20,7 @@ class App extends Component {
             <MDBCol md="12" lg="6">
               <div className="mb-4">
                 <MDBView hover rounded className="z-depth-1-half mb-4">
-                  <img
-                    className="img-fluid"
-                    src="/img/selfie.jpg"
-                    alt=""
-                  />
+                  <Selfie />
                   <a href="#!">
                     <MDBMask overlay="white-slight" className="waves-light" />
                   </a>
@@ -38,7 +34,7 @@ class App extends Component {
                   </a>
                   <p className="font-weight-bold dark-grey-text">
                     <MDBIcon far icon="clock" className="pr-2" />
-                    27/02/2018
+                    02/14/2019
                   </p>
                 </div>
                 <h3 className="font-weight-bold dark-grey-text mb-3 p-0">
@@ -62,11 +58,7 @@ class App extends Component {
                 <MDBRow>
                   <MDBCol md="3">
                     <MDBView hover rounded className="z-depth-1-half mb-4">
-                      <img
-                        className="img-fluid"
-                        src="/img/atl.jpg"
-                        alt=""
-                      />
+                      <Atl />
                       <a href="#!">
                         <MDBMask overlay="white-slight" className="waves-light" />
                       </a>
@@ -99,11 +91,7 @@ class App extends Component {
                 <MDBRow>
                   <MDBCol md="3">
                     <MDBView hover rounded className="z-depth-1-half mb-4">
-                      <img
-                        className="img-fluid"
-                        src="/img/woodscouchclose.jpg"
-                        alt=""
-                      />
+                      <Woodscouchclose />
                       <a href="#!">
                         <MDBMask overlay="white-slight" className="waves-light" />
                       </a>
@@ -133,11 +121,7 @@ class App extends Component {
                 <MDBRow>
                   <MDBCol md="3">
                     <MDBView hover rounded className="z-depth-1-half mb-4">
-                      <img
-                        className="img-fluid"
-                        src="/img/final.png"
-                        alt=""
-                      />
+                      <Final />
                       <a href="#!">
                         <MDBMask overlay="white-slight" className="waves-light" />
                       </a>
@@ -166,11 +150,7 @@ class App extends Component {
                 <MDBRow>
                   <MDBCol md="3">
                     <MDBView hover rounded className="z-depth-1-half mb-4">
-                      <img
-                        className="img-fluid"
-                        src="/img/daymode.jpg"
-                        alt=""
-                      />
+                      <Daymode />
                       <a href="#!">
                         <MDBMask overlay="white-slight" className="waves-light" />
                       </a>
