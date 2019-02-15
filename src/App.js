@@ -22,7 +22,7 @@ class App extends Component {
                 <MDBView hover rounded className="z-depth-1-half mb-4">
                   <img
                     className="img-fluid"
-                    src={window.location.origin + "/img/selfie.jpg"}
+                    src="/img/selfie.jpg"
                     alt=""
                   />
                   <a href="#!">
@@ -50,7 +50,6 @@ class App extends Component {
                   links to skills and social media portals, along with the best way to contact me if you 
                   are interested in what I can offer you. I have a passion for stories and storytelling, 
                   and beleive that the key to capturing an individual's interest lies in mastery of this art.
-
                 </p>
               </div>
             </MDBCol>
@@ -65,7 +64,7 @@ class App extends Component {
                     <MDBView hover rounded className="z-depth-1-half mb-4">
                       <img
                         className="img-fluid"
-                        src={window.location.origin + "/img/atl.jpg"}
+                        src="/img/atl.jpg"
                         alt=""
                       />
                       <a href="#!">
@@ -102,7 +101,7 @@ class App extends Component {
                     <MDBView hover rounded className="z-depth-1-half mb-4">
                       <img
                         className="img-fluid"
-                        src={window.location.origin + "/img/woodscouchclose.jpg"}
+                        src="/img/woodscouchclose.jpg"
                         alt=""
                       />
                       <a href="#!">
@@ -136,7 +135,7 @@ class App extends Component {
                     <MDBView hover rounded className="z-depth-1-half mb-4">
                       <img
                         className="img-fluid"
-                        src={window.location.origin + "/img/final.png"}
+                        src="/img/final.png"
                         alt=""
                       />
                       <a href="#!">
@@ -169,7 +168,7 @@ class App extends Component {
                     <MDBView hover rounded className="z-depth-1-half mb-4">
                       <img
                         className="img-fluid"
-                        src={window.location.origin + "/img/daymode.jpg"}
+                        src="/img/daymode.jpg"
                         alt=""
                       />
                       <a href="#!">
